@@ -1,6 +1,6 @@
 
 ## 引用文献规范
-
+> **一个例子**：
 ```python
 @article{2025.nlp.absa.simrp,
     title = {SimRP: Syntactic and Semantic Similarity Retrieval Prompting Enhances Aspect Sentiment Quad Prediction},
@@ -14,10 +14,10 @@
 }
 ```
 
-> 命名规范：<年份>.<领域>.<任务>.<模型名称>
+> **命名规范**：<年份>.<领域>.<任务>.<模型名称>
 
-> 必备内容：title, author, journal(期刊)/booktitle(会议), pages, year, 
-* 会议名称删除不必要的东西，比如地点、(Volume 1: Long Papers)、等
+> **必备内容**：title, author, journal(期刊)/booktitle(会议), pages, year, 
+* *会议名称删除不必要的东西，比如地点、(Volume 1: Long Papers)、等*
 
-> 额外内容：doi, volume, number
-* 除此之外，其他全删掉，比如 address、publisher、url、editor、...
+> **额外内容**：doi, volume, number
+* *除此之外，其他全删掉，比如 address、publisher、url、editor、...*
