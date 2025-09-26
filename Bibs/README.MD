@@ -1,4 +1,9 @@
 
+## 引用文献来源
+> 优先从 dblp 上摘抄：https://dblp.org/
+
+> 其次从 google scholar 上摘抄：https://scholar.google.com/
+
 ## 引用文献规范
 > **一个例子**：
 ```python
