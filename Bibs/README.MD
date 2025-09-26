@@ -16,7 +16,7 @@
 
 > **命名规范**：<年份>.<领域>.<任务>.<模型名称>
 
-> **必备内容**：title, author, journal(期刊)/booktitle(会议), pages, year, 
+> **必备内容**：title, author, journal(期刊)/booktitle(会议), pages(实在找不到就算了), year, 
 * *会议名称删除不必要的东西，比如地点、(Volume 1: Long Papers)、等*
 
 > **额外内容**：doi, volume, number
