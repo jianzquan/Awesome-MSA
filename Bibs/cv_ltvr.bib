@@ -1,0 +1,481 @@
+
+
+## LTVR Dataset
+@inproceedings{2019.cv.ltvr.data.cifar,
+  author={Yin Cui and Menglin Jia and Tsung{-}Yi Lin and Yang Song and Serge J. Belongie},
+  title={Class-Balanced Loss Based on Effective Number of Samples},
+  booktitle={{IEEE} Conference on Computer Vision and Pattern Recognition},
+  pages={9268--9277},
+  year={2019},
+  doi={https://doi.org/10.1109/CVPR.2019.00949},
+}
+@inproceedings{2019.cv.ltvr.data.imagenet,
+  author={Ziwei Liu and Zhongqi Miao and Xiaohang Zhan and Jiayun Wang and Boqing Gong and Stella X. Yu},
+  title={Large-Scale Long-Tailed Recognition in an Open World},
+  booktitle={{IEEE} Conference on Computer Vision and Pattern Recognition},
+  pages={2537--2546},
+  year={2019},
+  doi={https://doi.org/10.1109/CVPR.2019.00264},
+}
+@inproceedings{2018.cv.ltvr.data.inaturalist,
+  author={Grant Van Horn and Oisin Mac Aodha and Yang Song and Yin Cui and Chen Sun and Alexander Shepard and Hartwig Adam and Pietro Perona and Serge J. Belongie},
+  title={The INaturalist Species Classification and Detection Dataset},
+  booktitle={2018 {IEEE} Conference on Computer Vision and Pattern Recognition},
+  pages={8769--8778},
+  year={2018},
+  doi={https://doi.org/10.1109/CVPR.2018.00914},
+}
+
+## LTVR Survey
+@ARTICLE{2023.cv.ltvr.survey,
+  author={Zhang, Yifan and Kang, Bingyi and Hooi, Bryan and Yan, Shuicheng and Feng, Jiashi},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Deep Long-Tailed Learning: A Survey}, 
+  year={2023},
+  volume={45},
+  number={9},
+  pages={10795-10816},
+  doi={https://doi.org/10.1109/TPAMI.2023.3268118}
+}
+@article{2022.cv.ltvr.survey,
+  author = {Lu Yang and He Jiang and Qing Song and Jun Guo},
+  title = {A Survey on Long-Tailed Visual Recognition},
+  journal = {International Journal of Computer Vision},
+  volume = {130},
+  number = {7},
+  pages = {1837--1872},
+  year = {2022},
+  doi = {https://doi.org/10.1007/s11263-022-01622-8},
+}
+
+## LTVR Methods
+@article{2024.cv.ltvr.rect,
+  title = {Rectify representation bias in vision-language models for long-tailed recognition},
+  journal = {Neural Networks},
+  volume = {172},
+  pages = {106134},
+  year = {2024},
+  doi = {https://doi.org/10.1016/j.neunet.2024.106134},
+  author = {Bo Li and Yongqiang Yao and Jingru Tan and Ruihao Gong and Jianwei Lu and Ye Luo},
+}
+@inproceedings{2023.cv.ltvr.shike,
+  author = {Yan Jin and Mengke Li and Yang Lu and Yiu{-}ming Cheung and Hanzi Wang},
+  title = {Long-Tailed Visual Recognition via Self-Heterogeneous Integration with Knowledge Excavation},
+  booktitle = {{IEEE/CVF} Conference on Computer Vision and Pattern Recognition},
+  pages = {23695--23704},
+  year = {2023},
+  doi = {https://doi.org/10.1109/CVPR52729.2023.02269},
+}
+
+@inproceedings{2020.cv.ltvr.simcal,
+  author = {Tao Wang and Yu Li and Bingyi Kang and Junnan Li and Jun Hao Liew and Sheng Tang and Steven C. H. Hoi and Jiashi Feng},
+  title = {The Devil Is in Classification: {A} Simple Framework for Long-Tail Instance Segmentation},
+  booktitle = {Computer Vision - {ECCV} 2020 - 16th European Conference},
+  volume = {12359},
+  pages = {728--744},
+  year = {2020},
+  doi = {https://doi.org/10.1007/978-3-030-58568-6\_43},
+}
+
+
+### sampling based
+@ARTICLE{2024.cv.ltvr.proco,
+  author={Du, Chaoqun and Wang, Yulin and Song, Shiji and Huang, Gao},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Probabilistic Contrastive Learning for Long-Tailed Visual Recognition}, 
+  year={2024},
+  volume={46},
+  number={9},
+  pages={5890-5904},
+  doi={https://doi.org/10.1109/TPAMI.2024.3369102}
+}
+
+
+
+
+### Two-stage based
+@inproceedings{2019.cv.ltvr.ldam,
+  author={Cao, Kaidi and Wei, Colin and Gaidon, Adrien and Arechiga, Nikos and Ma, Tengyu},
+  booktitle={Advances in Neural Information Processing Systems},
+  title={Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss},
+  volume={32},
+  pages={1565--1576},
+  year={2019}
+}
+
+
+### logit adjustment based
+@ARTICLE{2023.cv.ltvr.kps,
+  author={Li, Mengke and Cheung, Yiu-Ming and Hu, Zhikai},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Key Point Sensitive Loss for Long-Tailed Visual Recognition}, 
+  year={2023},
+  volume={45},
+  number={4},
+  pages={4812-4825},
+  doi={https://doi.org/10.1109/TPAMI.2022.3196044}
+}
+@INPROCEEDINGS{2022.cv.ltvr.gcl,
+  author={Li, Mengke and Cheung, Yiu-Ming and Lu, Yang},
+  booktitle={2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition}, 
+  title={Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={6919-6928},
+  doi={https://doi.org/10.1109/CVPR52688.2022.00680}
+}
+@inproceedings{2021.cv.ltvr.loga,
+  author={Aditya Krishna Menon and Sadeep Jayasumana and Ankit Singh Rawat and Himanshu Jain and Andreas Veit and Sanjiv Kumar},
+  title= {Long-tail learning via logit adjustment},
+  booktitle={9th International Conference on Learning Representations},
+  year={2021},
+}
+@inproceedings{2021.cv.ltvr.disalign,
+  author = {Songyang Zhang and Zeming Li and Shipeng Yan and Xuming He and Jian Sun},
+  title = {Distribution Alignment: {A} Unified Framework for Long-Tail Visual Recognition},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition},
+  pages = {2361--2370},
+  year = {2021},
+  doi = {https://doi.org/10.1109/CVPR46437.2021.00239},
+}
+@inproceedings{2021.cv.ltvr.lade,
+  author = {Youngkyu Hong and Seungju Han and Kwanghee Choi and Seokjun Seo and Beomsu Kim and Buru Chang},
+  title = {Disentangling Label Distribution for Long-Tailed Visual Recognition},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition},
+  pages = {6626--6636},
+  year = {2021},
+  doi = {https://doi.org/10.1109/CVPR46437.2021.00656},
+}
+@inproceedings{2025.cv.ltvr.los,
+  author = {Siyu Sun and Han Lu and Jiangtong Li and Yichen Xie and Tianjiao Li and Xiaokang Yang and Liqing Zhang and Junchi Yan},
+  title = {Rethinking Classifier Re-Training in Long-Tailed Recognition: Label Over-Smooth Can Balance},
+  booktitle = {The Thirteenth International Conference on Learning Representations},
+  year = {2025}
+}
+
+
+### data augmentation based
+@inproceedings{2024.cv.ltvr.smart,
+  author = {Shan Zhang and Yao Ni and Jinhao Du and Yanxia Liu and Piotr Koniusz},
+  title = {Semantic Transfer from Head to Tail: Enlarging Tail Margin for Long-Tailed Visual Recognition},
+  booktitle = {{IEEE/CVF} Winter Conference on Applications of Computer Vision},
+  pages = {1339--1349},
+  year = {2024},
+  doi = {https://doi.org/10.1109/WACV57701.2024.00138},
+}
+@inproceedings{2024.cv.ltvr.h2t,
+  author= {Mengke Li and Zhikai Hu and Yang Lu and Weichao Lan and Yiu{-}ming Cheung and Hui Huang},
+  title= {Feature Fusion from Head to Tail for Long-Tailed Visual Recognition},
+  booktitle= {Thirty-Eighth {AAAI} Conference on Artificial Intelligence, Thirty-Sixth Conference on Innovative Applications of Artificial Intelligence, Fourteenth Symposium on Educational Advances in Artificial Intelligence},
+  pages={13581--13589},
+  year={2024},
+  doi={https://doi.org/10.1609/aaai.v38i12.29262},
+}
+@inproceedings{2023.cv.ltvr.glmc,
+  author={Fei Du and Peng Yang and Qi Jia and Fengtao Nan and Xiaoting Chen and Yun Yang},
+  title={Global and Local Mixture Consistency Cumulative Learning for Long-tailed Visual Recognitions},
+  booktitle= {{IEEE/CVF} Conference on Computer Vision and Pattern Recognition},
+  pages={15814--15823},
+  year={2023},
+  doi= {https://doi.org/10.1109/CVPR52729.2023.01518},
+}
+@inproceedings{2023.cv.ltvr.otmix,
+  author = {Jintong Gao and He Zhao and Zhuo Li and Dandan Guo},
+  title = {Enhancing Minority Classes by Mixing: An Adaptative Optimal Transport Approach for Long-tailed Classification},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year = {2023},
+}
+@inproceedings{2021.cv.ltvr.rsg,
+  author = {Jianfeng Wang and Thomas Lukasiewicz and Xiaolin Hu and Jianfei Cai and Zhenghua Xu},
+  title = {{RSG:} {A} Simple but Effective Module for Learning Imbalanced Datasets},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition},
+  pages = {3784--3793},
+  year = {2021},
+  doi = {https://doi.org/10.1109/CVPR46437.2021.00378},
+}
+@INPROCEEDINGS{2021.cv.ltvr.fasa,
+  author={Zang, Yuhang and Huang, Chen and Change Loy, Chen},
+  booktitle={2021 IEEE/CVF International Conference on Computer Vision}, 
+  title={FASA: Feature Augmentation and Sampling Adaptation for Long-Tailed Instance Segmentation}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={3437-3446},
+  doi={https://doi.org/10.1109/ICCV48922.2021.00344}
+}
+@inproceedings{2021.cv.ltvr.metasaug,
+  author = {Shuang Li and Kaixiong Gong and Chi Harold Liu and Yulin Wang and Feng Qiao and Xinjing Cheng},
+  title = {MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition},
+  pages = {5212--5221},
+  year = {2021},
+  doi = {https://doi.org/10.1109/CVPR46437.2021.00517},
+}
+@inproceedings{2020.cv.ltvr.m2m,
+  author = {Jaehyung Kim and Jongheon Jeong and Jinwoo Shin},
+  title = {M2m: Imbalanced Classification via Major-to-Minor Translation},
+  booktitle = {2020 {IEEE/CVF} Conference on Computer Vision and Pattern Recognition},
+  pages = {13893--13902},
+  year = {2020},
+  doi = {https://doi.org/10.1109/CVPR42600.2020.01391},
+}
+
+@inproceedings{2020.cv.ltvr.remix,
+  author = {Hsin{-}Ping Chou and Shih{-}Chieh Chang and Jia{-}Yu Pan and Wei Wei and Da{-}Cheng Juan},
+  title = {Remix: Rebalanced Mixup},
+  booktitle = {Computer Vision - {ECCV} 2020 Workshops},
+  volume = {12540},
+  pages = {95--110},
+  year = {2020},
+  doi = {https://doi.org/10.1007/978-3-030-65414-6_9},
+}
+@inproceedings{2021.cv.ltvr.unimix,
+  author = {Zhengzhuo Xu and Zenghao Chai and Chun Yuan},
+  booktitle = {Advances in Neural Information Processing Systems},
+  pages = {7139--7152},
+  title = {Towards Calibrated Model for Long-Tailed Visual Recognition from Prior Perspective},
+  volume = {34},
+  year = {2021}
+}
+@inproceedings{2022.cv.ltvr.lbmix,
+  author = {Shaoyu Zhang and Chen Chen and Xiujuan Zhang and Silong Peng},
+  title = {Label-Occurrence-Balanced Mixup for Long-Tailed Recognition},
+  booktitle = {ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing},
+  pages = {3224--3228},
+  year = {2022},
+  doi = {https://doi.org/10.1109/ICASSP43922.2022.9746299},
+}
+@article{2024.cv.ltvr.dbn-mix,
+  title = {DBN-Mix: Training dual branch network using bilateral mixup augmentation for long-tailed visual recognition},
+  journal = {Pattern Recognition},
+  volume = {147},
+  pages = {110107},
+  year = {2024},
+  doi = {https://doi.org/10.1016/j.patcog.2023.110107},
+  author = {Jae Soon Baik and In Young Yoon and Jun Won Choi},
+}
+@INPROCEEDINGS{2024.cv.ltvr.sure,
+  author={Li, Yuting and Chen, Yingyi and Yu, Xuanlong and Chen, Dexiong and Shen, Xi},
+  booktitle={2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition}, 
+  title={SURE: SUrvey REcipes for Building Reliable and Robust Deep Networks}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={17500-17510},
+  doi={https://doi.org/10.1109/CVPR52733.2024.01657}
+}
+
+
+
+
+
+
+@inproceedings{2016.cv.ltvr.dqn,
+  author={Yue Cao and Mingsheng Long and Jianmin Wang and Han Zhu and Qingfu Wen},
+  title={Deep Quantization Network for Efficient Image Retrieval},
+  booktitle={Proceedings of the Thirtieth {AAAI} Conference on Artificial Intelligence},
+  pages={3457--3463},
+  year={2016},
+  doi={https://doi.org/10.1609/aaai.v30i1.10455},
+}
+@inproceedings{2022.cv.ltvr.risda,
+  author={Xiaohua Chen and Yucan Zhou and Dayan Wu and Wanqian Zhang and Yu Zhou and Bo Li and Weiping Wang},
+  title={Imagine by Reasoning: {A} Reasoning-Based Implicit Semantic Data Augmentation for Long-Tailed Classification},
+  booktitle={Thirty-Sixth {AAAI} Conference on Artificial Intelligence, Thirty-Fourth Conference on Innovative Applications of Artificial Intelligence, The Twelveth Symposium on Educational Advances in Artificial Intelligence},
+  pages={356--364},
+  year={2022},
+  doi={https://doi.org/10.1609/aaai.v36i1.19912},
+}
+@inproceedings{2020.cv.ltvr.balms,
+  author={Jiawei Ren and Cunjun Yu and Shunan Sheng and Xiao Ma and Haiyu Zhao and Shuai Yi and Hongsheng Li},
+  title={Balanced Meta-Softmax for Long-Tailed Visual Recognition},
+  booktitle={Advances in Neural Information Processing Systems 33},
+  year={2020},
+}
+@InProceedings{2022.cv.ltvr.cmo,
+  author={Park, Seulki and Hong, Youngkyu and Heo, Byeongho and Yun, Sangdoo and Choi, Jin Young},
+  title={The Majority Can Help the Minority: Context-Rich Minority Oversampling for Long-Tailed Classification},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    month={June},
+    year={2022},
+    pages={6887-6896}
+}
+@inproceedings{2021.cv.ltvr.paco,
+  author={Jiequan Cui and Zhisheng Zhong and Shu Liu and Bei Yu and Jiaya Jia},
+  title={Parametric Contrastive Learning},
+  booktitle={2021 {IEEE/CVF} International Conference on Computer Vision},
+  pages={695--704},
+  year={2021},
+  doi={https://doi.org/10.1109/ICCV48922.2021.00075},
+}
+@inproceedings{2020.cv.ltvr.fsa,
+  author={Peng Chu and Xiao Bian and Shaopeng Liu and Haibin Ling},
+  title={Feature Space Augmentation for Long-Tailed Data},
+  booktitle={Computer Vision - {ECCV} 2020 - 16th European Conference},
+  volume={12374},
+  pages={694--710},
+  year={2020},
+  doi={https://doi.org/10.1007/978-3-030-58526-6\_41},
+}
+@ARTICLE{2018.cv.ltvr.cosen,
+  author={Khan, Salman H. and Hayat, Munawar and Bennamoun, Mohammed and Sohel, Ferdous A. and Togneri, Roberto},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Cost-Sensitive Learning of Deep Feature Representations From Imbalanced Data}, 
+  year={2018},
+  volume={29},
+  number={8},
+  pages={3573-3587},
+  doi={https://doi.org/10.1109/TNNLS.2017.2732482}
+}
+
+
+@inproceedings{2022.cv.ltvr.wd,
+  author={Shaden Alshammari and Yu{-}Xiong Wang and Deva Ramanan and Shu Kong},
+  title={Long-Tailed Recognition via Weight Balancing},
+  booktitle={{IEEE/CVF} Conference on Computer Vision and Pattern Recognition},
+  pages={6887--6897},
+  year={2022},
+  doi={https://doi.org/10.1109/CVPR52688.2022.00677},
+}
+@INPROCEEDINGS{2021.cv.ltvr.fsr,
+  author={Zhang, Zizhao and Pfister, Tomas},
+  booktitle={2021 IEEE/CVF International Conference on Computer Vision}, 
+  title={Learning Fast Sample Re-weighting Without Reward Data}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={705-714},
+  doi={https://doi.org/10.1109/ICCV48922.2021.00076}
+}
+
+### representation learning based
+@INPROCEEDINGS{2023.cv.ltvr.sbcl,
+  author={Hou, Chengkai and Zhang, Jieyu and Wang, Haonan and Zhou, Tianyi},
+  booktitle={2023 IEEE/CVF International Conference on Computer Vision}, 
+  title={Subclass-balancing Contrastive Learning for Long-tailed Recognition}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={5372-5384},
+  doi={https://doi.org/10.1109/ICCV51070.2023.00497}
+}
+@inproceedings{2022.cv.ltvr.bcl,
+  author= {Jianggang Zhu and Zheng Wang and Jingjing Chen and Yi{-}Ping Phoebe Chen and Yu{-}Gang Jiang},
+  title={Balanced Contrastive Learning for Long-Tailed Visual Recognition},
+  booktitle={{IEEE/CVF} Conference on Computer Vision and Pattern Recognition},
+  pages={6898--6907},
+  year={2022},
+  doi={https://doi.org/10.1109/CVPR52688.2022.00678},
+}
+@INPROCEEDINGS{2022.cv.ltvr.tsc,
+  author={Li, Tianhong and Cao, Peng and Yuan, Yuan and Fan, Lijie and Yang, Yuzhe and Feris, Rogerio and Indyk, Piotr and Katabi, Dina},
+  booktitle={2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition}, 
+  title={Targeted Supervised Contrastive Learning for Long-Tailed Recognition}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={6908-6918},
+  doi={https://doi.org/10.1109/CVPR52688.2022.00679}
+}
+@InProceedings{2021.cv.ltvr.hybrid-sc,
+  author={Wang, Peng and Han, Kai and Wei, Xiu-Shen and Zhang, Lei and Wang, Lei},
+  title={Contrastive Learning Based Hybrid Networks for Long-Tailed Image Classification},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2021},
+  pages={943-952}
+}
+
+@inproceedings{2024.cv.ltvr.dcl,
+  author={Shiyu Xuan and Shiliang Zhang},
+  title={Decoupled Contrastive Learning for Long-Tailed Recognition},
+  booktitle={Thirty-Eighth {AAAI} Conference on Artificial Intelligence, Thirty-Sixth Conference on Innovative Applications of Artificial Intelligence, Fourteenth Symposium on Educational Advances in Artificial Intelligence},
+  pages={6396--6403},
+  year={2024},
+  doi={https://doi.org/10.1609/aaai.v38i6.28459},
+}
+@inproceedings{2020.cv.ltvr.drc,
+  author={Bingyi Kang and Saining Xie and Marcus Rohrbach and Zhicheng Yan and Albert Gordo and Jiashi Feng and Yannis Kalantidis},
+  title={Decoupling Representation and Classifier for Long-Tailed Recognition},
+  booktitle={8th International Conference on Learning Representations},
+  year={2020},
+}
+
+@inproceedings{2020.cv.ltvr.bbn,
+  author={Boyan Zhou and Quan Cui and Xiu{-}Shen Wei and Zhao{-}Min Chen},
+  title={{BBN:} Bilateral-Branch Network With Cumulative Learning for Long-Tailed Visual Recognition},
+  booktitle={2020 {IEEE/CVF} Conference on Computer Vision and Pattern Recognition},
+  pages={9716--9725},
+  year={2020},
+  doi={https://doi.org/10.1109/CVPR42600.2020.00974},
+}
+
+
+
+
+
+
+
+@inproceedings{2023.cv.ltvr.fcc,
+  author={Jian Li and Ziyao Meng and Daqian Shi and Rui Song and Xiaolei Diao and Jingwen Wang and Hao Xu},
+  title={{FCC:} Feature Clusters Compression for Long-Tailed Visual Recognition},
+  booktitle={{IEEE/CVF} Conference on Computer Vision and Pattern Recognition},
+  pages={24080--24089},
+  year={2023},
+  doi={https://doi.org/10.1109/CVPR52729.2023.02306},
+}
+
+@INPROCEEDINGS{2021.cv.ltvr.ib,
+  author={Park, Seulki and Lim, Jongin and Jeon, Younghan and Choi, Jin Young},
+  booktitle={2021 IEEE/CVF International Conference on Computer Vision}, 
+  title={Influence-Balanced Loss for Imbalanced Visual Classification}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={715-724},
+  doi={https://doi.org/10.1109/ICCV48922.2021.00077}
+}
+@inproceedings{2021.cv.ltvr.ltml,
+  author={Hao Guo and Song Wang},
+  title={Long-Tailed Multi-Label Visual Recognition by Collaborative Training on Uniform and Re-Balanced Samplings},
+  booktitle={{IEEE} Conference on Computer Vision and Pattern Recognition},
+  pages={15089--15098},
+  year={2021},
+  doi={https://doi.org/10.1109/CVPR46437.2021.01484},
+}
+@inproceedings{2021.cv.ltvr.ride,
+  author={Xudong Wang and Long Lian and Zhongqi Miao and Ziwei Liu and Stella X. Yu},
+  title={Long-tailed Recognition by Routing Diverse Distribution-Aware Experts},
+  booktitle={9th International Conference on Learning Representations},
+  year={2021},
+}
+@inproceedings{2021.cv.ltvr.kcl,
+  author={Bingyi Kang and Yu Li and Sa Xie and Zehuan Yuan and Jiashi Feng},
+  title={Exploring Balanced Feature Spaces for Representation Learning},
+  booktitle={9th International Conference on Learning Representations},
+  year={2021},
+}
+@inproceedings{2021.cv.ltvr.gistnet,
+  author={Bo Liu and Haoxiang Li and Hao Kang and Gang Hua and Nuno Vasconcelos},
+  title={GistNet: a Geometric Structure Transfer Network for Long-Tailed Recognition},
+  booktitle={2021 {IEEE/CVF} International Conference on Computer Vision},
+  pages={8189--8198},
+  year={2021},
+  doi={https://doi.org/10.1109/ICCV48922.2021.00810},
+}
+@inproceedings{2021.cv.ltvr.ar,
+  author={Tong Wu and Ziwei Liu and Qingqiu Huang and Yu Wang and Dahua Lin},
+  title={Adversarial Robustness Under Long-Tailed Distribution},
+  booktitle={{IEEE} Conference on Computer Vision and Pattern Recognition},
+  pages={8659--8668},
+  year={2021},
+  doi={https://doi.org/10.1109/CVPR46437.2021.00855},
+}
+@inproceedings{2021.cv.ltvr.ssd,
+  author={Tianhao Li and Limin Wang and Gangshan Wu},
+  title={Self Supervision to Distillation for Long-Tailed Visual Recognition},
+  booktitle={2021 {IEEE/CVF} International Conference on Computer Vision},
+  pages={610--619},
+  year={2021},
+  doi={https://doi.org/10.1109/ICCV48922.2021.00067},
+}
